@@ -1,0 +1,66 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Abdullah's Resume</title>
+    <link rel="stylesheet" href="style.css">
+</head>
+<body>
+    <div class="resume-container">
+        <div class="profile-section">
+            <img src="me.jpg" alt="Profile Picture" class="profile-pic">
+            <h1>Abdullah</h1>
+            <p>Karachi, SD 75300</p>
+            <p>abdullahrafeeqadam@gmail.com</p>
+        </div>
+
+        <hr class="divider">
+
+        <div class="section">
+            <h2>Professional Summary</h2>
+            <p>A certified web developer specializing in React, HTML, CSS, JavaScript, and TypeScript, currently working as a freelancer. With a strong foundation in front-end technologies and a passion for crafting responsive, user-friendly websites, I bring a creative and efficient approach to every project.</p>
+        </div>
+
+        <div class="section">
+            <h2>Education</h2>
+            <button id="toggle-education">View Education</button>
+            <div id="education-section" class="hidden">
+                <p>SSC – The Educators School</p>
+                <p>2008 - 2022</p>
+                <br>
+                <p>HSC – Commecs College</p>
+                <p>2022 - 2024</p>
+                <br>
+                <p>BSc in Computer Science – Bahria University</p>
+                <p>2024 - 2028(expected)</p>
+            </div>
+        </div>
+
+        <div class="section">
+            <h2>Work Experience</h2>
+            <button id="toggle-work">View Work Experience</button>
+            <div id="work-section" class="hidden">
+                <p>Website Developer – Independent Freelancer</p>
+                <p>April 2024 - Present</p>
+            </div>
+        </div>
+
+        <div class="section">
+            <h2>Skills</h2>
+            <button id="toggle-skills">View Skills</button>
+            <div id="skills-section" class="hidden">
+                <ul>
+                    <li>HTML/CSS</li>
+                    <li>JavaScript</li>
+                    <li>Typescript</li>
+                    <li>React.js</li>
+                    <li>Node.js</li>
+                </ul>
+            </div>
+        </div>
+    </div>
+
+    <script src="script.js"></script>
+</body>
+</html>
